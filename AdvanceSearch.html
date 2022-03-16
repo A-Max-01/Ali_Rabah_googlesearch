@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Advance_Search.css">
+    <title>Advance Search</title>
+</head>
+<body>
+    <a href="https://www.google.com/search"><img src="google.png" alt="Google Search"></a>
+
+    <h2>Advanced Search</h2>
+    <hr>
+    <form action="https://www.google.com/search">
+        <div class="flex_box">
+            <p>all these words:</p>
+            <input type="text" name="as_q">
+            <h6>Type the important words: tri-colour rat terrier</h6>
+        </div>
+        <div class="flex_box">
+            <p>this exact word or phrase:</p>
+            <input type="text" name="as_epq">
+            <h6>Put exact words in quotes: "rat terrier"</h6>
+        </div>
+        <div class="flex_box">
+            <p>any of these words:</p>
+            <input type="text" name="as_oq">
+            <h6>Type OR between all the words you want: miniature OR standard</h6>
+        </div>
+        <div class="flex_box">
+            <p>none of these words:</p>
+            <input type="text" name="as_eq">
+            <h6>Put a minus sign just before words that you don't want:</h6>
+        </div>
+        <input id="btn" type="submit" value="Advance Search">
+    </form>
+</body>
+</html>

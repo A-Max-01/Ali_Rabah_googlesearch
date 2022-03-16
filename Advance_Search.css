@@ -1,0 +1,53 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    width: 100px;
+    margin: 15px;
+}
+h2{
+    margin: 30px;
+    color: brown;
+}
+form{
+    padding: 20px;
+    margin: 50px;
+    
+}
+.flex_box{
+    display: flex;
+    padding: 10px;
+}
+.flex_box p{
+    margin: 20px;
+}
+input[type="text"]
+{
+    width: 500px;
+    height: 20px;
+    margin: 20px;
+}
+input[name="as_q"]{
+margin-left: 80px;
+}
+input[name="as_epq"]{
+    margin-left: 10px;
+}
+input[name="as_oq"]{
+    margin-left: 60px;
+}
+input[name="as_eq"]{
+    margin-left: 50px;
+}
+#btn{
+    background: blue;
+    color: white;
+    margin-left:800px ;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}

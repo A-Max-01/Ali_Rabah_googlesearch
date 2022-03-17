@@ -70,10 +70,10 @@ background: rgb(216, 213, 213);
 footer{
     position: fixed;
     left: 0;
+    background: rgb(222, 226, 225);
     bottom: 0;
     width: 100%;
-    background: rgb(222, 226, 225);
-    height: auto;
+    font-size: 12px;
     
 }
 #top{
@@ -82,10 +82,12 @@ footer{
 #bottom{
     display: flex;
     flex-wrap: nowrap;
-    height: 60px;
+    height: 50px;
 }
 #bottom p{
-    padding: 10px;
+    padding: 7px;
+    padding-bottom: 0px;
+    margin: 0px;
 }
 .left_dir{
   

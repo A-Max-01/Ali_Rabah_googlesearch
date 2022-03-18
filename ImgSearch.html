@@ -9,21 +9,25 @@
     <title>Google Search</title>
 </head>
 <body>
+    <div class="links">
+        <a id="left" href="index.html" title="Search for Image" target="_blank">Google Search</a>
+        <a id="right" href="AdvanceSearch.html" title="Go to Advance Search" target="_blank">Google Advanced Search</a>
+    </div>
    <div class="container">
     <img id="img_src" src="google.png" alt="Google Search"/>
     <div class="bottom-right">Images</div>
    </div>
   
-    <form action="https://www.google.com/search" target="_blank">
+    <form action="https://www.google.com/search">
 
         <div class="input_container">
-           <a href="#"> <i id="mic_i" class="bi bi-mic"></i></a> 
+            <a href="#"> <i id="mic_i" class="bi bi-mic"></i></a> 
+            <input id="txt" type="text" name="q" >
             <a href="#"><i id="search_i" class="bi bi-search"></i></a>
-         <input id="txt" type="text" name="q" >
         </div>
         <input hidden name="tbm" value="isch"> 
         <div class="bottons">
-            <input id="right" type="submit" value="Google Search">
+            <input id="right" type="submit" value="Search Image">
         </div>
     </form>
 

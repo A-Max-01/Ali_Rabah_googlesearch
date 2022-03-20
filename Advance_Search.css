@@ -30,12 +30,12 @@ h2{
 }
 form{
     padding: 20px;
-    margin: 50px;
+    margin: 10px;
     
 }
 .flex_box{
     display: flex;
-    padding: 10px;
+    padding: 5px;
 }
 .flex_box p{
     margin: 20px;
@@ -59,11 +59,11 @@ input[name="as_eq"]{
     margin-left: 50px;
 }
 #btn{
-    background: blue;
+    background-color: #4d90fe;
     color: white;
     margin-left:800px ;
     font-size: 16px;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid #4d90fe;
     border-radius: 20px;
 }
